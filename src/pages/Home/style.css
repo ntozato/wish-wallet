@@ -1,0 +1,53 @@
+.star {
+  width: 40px;
+  margin-right: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+
+.title {
+  color: white;
+}
+
+.titles {
+  margin-top: 2%;
+  color:white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.titles h4:first-child {
+  margin-left: 30px;
+}
+
+.info-tokens {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-icon {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.right-items {
+  text-align: right;
+  color: white;
+}
+
+.icon-token {
+  display: flex;
+  color: white;
+}
+
+.no-token-message {
+  color: white;
+  text-align: center;
+}

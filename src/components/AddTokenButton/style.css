@@ -1,0 +1,9 @@
+.add-token-btn {
+  margin-top: 29%;
+  background-color: purple;
+  color:white;
+  border: none;
+  border-radius: 3px;
+  height: 27px;
+  width: 80px;
+}
