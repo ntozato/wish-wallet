@@ -4,7 +4,7 @@ import './style.css';
 
 function Logo() {
   return(
-    <div>
+    <div data-testid="logo">
         <img src={ logo } alt="logo" className="logo" />
       </div>
   )

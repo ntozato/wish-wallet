@@ -72,12 +72,14 @@ function AddToken() {
         <div className="inputs">
           <p>Token</p>
           <input
+          data-testid="input"
           type="text"
           onChange={({ target }) => handleTokenInputChange(target)}
           />
           {tokenExists && tokenExistsMessage()}
           <p>Balance</p>
           <input
+          data-testid="input"
           type="number"
           onChange={({ target }) => handleBalanceInputChange(target)}
           />

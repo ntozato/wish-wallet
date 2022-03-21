@@ -5,7 +5,7 @@ import './style.css'
 
 function StarWishWallet() {
   return(
-    <div className="star-title">
+    <div data-testid="star-wish" className="star-title">
       <img src={ star } alt="star" className="star"/>
       <h2 className="title">Wish Wallet</h2>
     </div>
