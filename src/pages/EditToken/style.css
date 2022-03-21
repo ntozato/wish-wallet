@@ -1,0 +1,64 @@
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.remove {
+  color: white;
+  background-color: #93231e;
+  margin-top: 5%;
+  color:white;
+  border: none;
+  border-radius: 3px;
+  height: 27px;
+  width: 80px;
+}
+
+.save {
+  color: white;
+  background-color: #ac5cb5;
+  margin-top: 5%;
+  color:white;
+  border: none;
+  border-radius: 3px;
+  height: 27px;
+  width:80px;
+}
+
+.remove-alert {
+  background-color:#225886ad;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 2% 2% 2%;
+}
+
+.remove-alert p {
+  color:white;
+}
+
+.yes-btn {
+  background-color:#020631;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  height: 27px;
+  /* margin-right: 1%; */
+  width: 60%;
+}
+
+.cancel-btn {
+  background-color:#020631;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  height: 27px;
+  width: 60%;
+  margin-top: 2%;
+}
+
+.alert-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
