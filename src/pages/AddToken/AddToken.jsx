@@ -92,7 +92,9 @@ function AddToken() {
           >
             Save
           </button>
-          {show && showAlert()}
+          <div className='show-alert'>
+            {show && showAlert()}
+          </div>
         </div>
       </div>
       
