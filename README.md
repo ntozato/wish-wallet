@@ -2,8 +2,7 @@
 
 
 ## Contexto
- 
- Esse é um repositório criado para armazenar o teste prático do processo seletivo da Klever. Foi desenvolvido uma página(frontend) de uma carteira de tokens. O projeto foi desenvolvido utilizando React.js, React Hooks, Context API e Bootstrap.
+ Foi desenvolvido uma página(frontend) de uma carteira de tokens. O projeto foi desenvolvido utilizando React.js, React Hooks, Context API e Bootstrap.
  
 
 ## Instalação
