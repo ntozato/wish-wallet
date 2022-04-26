@@ -30,11 +30,13 @@ function EditToken() {
 
   const removeAlert = () => {
     return(
-      <div className="remove-alert">
-        <p>Are you sure?</p>
-        <div className="alert-buttons">
-          <button className="yes-btn" onClick={() => removeToken()}>Yes</button>
-          <button className="cancel-btn" onClick={() => setShowAlert(false)}>Cancel</button>
+      <div className='remove-alert-container'>
+        <div className="remove-alert">
+          <p>Are you sure?</p>
+          <div className="alert-buttons">
+            <button className="yes-btn" onClick={() => removeToken()}>Yes</button>
+            <button className="cancel-btn" onClick={() => setShowAlert(false)}>Cancel</button>
+          </div>
         </div>
       </div>
     )
@@ -46,6 +48,7 @@ function EditToken() {
       <StarWishWallet />
       <div className="header">
         <h4>Edit Token</h4>
+      {showAlert && removeAlert()}
         <BackButton />
       </div>
       <form onSubmit={handleSubmit(onSubmit)}>
@@ -80,7 +83,6 @@ function EditToken() {
         </button>
       </div>
       </form>
-      {showAlert && removeAlert()}
     </div>
   );
 };

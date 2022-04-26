@@ -26,7 +26,7 @@ function AddToken() {
   const handleTokenInputChange = (target) => {
     setShow(false);
     setTokenExists(false);
-    setToken(target.value);
+    setToken(target.value.toUpperCase().trim());
   }
 
   const handleBalanceInputChange = (target) => {
