@@ -21,3 +21,17 @@
 3. Abra o projeto no navegador
 
 - `npm start`
+
+
+## Observações e Usabilidade
+
+### Home page
+- São listados todos os Tokens existentes.
+
+### AddToken page
+- Entre com um token e um valor. Ex: no campo `Token` entre com `klv` e no campo `balance` entre com 246.
+- Não é possível adicionar um token já existente.
+- Todos os campos devem ser preenchidos obrigatoriamente.
+
+### EditToken page
+- Edite as informações sobre o Token.
