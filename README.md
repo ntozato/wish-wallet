@@ -2,7 +2,7 @@
 
 
 ## Contexto
- Foi desenvolvido uma página(frontend) de uma carteira de tokens. O projeto foi desenvolvido utilizando React.js, React Hooks, Context API e Bootstrap.
+ Foi desenvolvida uma página(frontend) de uma carteira de tokens. O projeto foi desenvolvido utilizando React.js, React Hooks, Context API e Bootstrap.
  
 
 ## Instalação
